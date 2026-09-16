@@ -13,4 +13,3 @@ elif media <= 5:
     print("recuperaçao")
 else:
     print("aprovado")
-
