@@ -1,6 +1,10 @@
-numero = int(input("Digite um numero: "))
+numero = int(input("digite seu numero: "))
 
-if numero >10:
-    print("se o numero é maior que 10")
+if numero >> 0:
+    print("positivo")
+
+if numero == 0:
+     print("zerado")
+
 else:
-    print("o numero é menor do que 10")
+     print("negativo")
